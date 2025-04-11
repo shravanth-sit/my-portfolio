@@ -1,17 +1,13 @@
 const Interests = () => {
     return (
-      <section>
-        <header>
-          <h2>Interests</h2>
-        </header>
-        <article>
-          <ul>
-            <li>⚙️ Building side projects with React and Node.js</li>
-            <li>🎮 Playing indie games</li>
-            <li>📖 Reading about startups and product design</li>
-            <li>🎨 Exploring UI/UX trends and animations</li>
-          </ul>
-        </article>
+      <section className="p-8 max-w-2xl mx-auto">
+        <h2 className="text-3xl font-semibold text-indigo-600 mb-4">Interests</h2>
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+          <li>Playing Cricket</li>
+          <li>Watching Movies</li>
+          <li>Traveling</li>
+          <li>Trekking</li>
+        </ul>
       </section>
     );
   };
