@@ -1,18 +1,14 @@
 const About = () => {
     return (
-      <section>
-        <header>
-          <h2>About Me</h2>
-        </header>
-        <article>
-          <p>
-            Hello! I’m a passionate web developer who enjoys building responsive and accessible websites.
-            I specialize in React, JavaScript, and modern frontend technologies.
-          </p>
-          <p>
-            My goal is to solve real-world problems through clean and efficient code.
-          </p>
-        </article>
+      <section className="p-8 max-w-3xl mx-auto">
+        <h2 className="text-3xl font-semibold text-indigo-600 mb-4">About Me</h2>
+        <p className="text-gray-700 text-lg mb-4">
+          I'm Shravanth, currently pursuing my final year in Artificial Intelligence and Data Science at Siddaganga Institute of Technology.
+          I have a strong passion for problem-solving and building practical applications using cutting-edge technologies.
+        </p>
+        <p className="text-gray-700 text-lg">
+          My core skills include Python, machine learning, generative AI, and large language models. I love exploring how AI can enhance real-world experiences and create smart solutions.
+        </p>
       </section>
     );
   };
