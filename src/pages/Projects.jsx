@@ -1,22 +1,28 @@
 const Projects = () => {
     return (
-      <section>
-        <header>
-          <h2>Projects</h2>
-        </header>
-        <article>
-          <div>
-            <h3>My Portfolio Website</h3>
-            <p>A personal portfolio built using React, React Router, and Tailwind CSS.</p>
-            <a href="https://your-vercel-link.vercel.app" target="_blank" rel="noreferrer">View Project</a>
+      <section className="p-8 max-w-4xl mx-auto">
+        <h2 className="text-3xl font-semibold text-indigo-600 mb-6">Projects</h2>
+        <div className="space-y-6">
+          <div className="p-4 border rounded-lg shadow-sm">
+            <h3 className="text-xl font-bold text-gray-800">Short Movie Script Generator</h3>
+            <p className="text-gray-600">Uses generative AI to create movie scripts from prompts or themes.</p>
           </div>
   
-          <div>
-            <h3>Task Manager App</h3>
-            <p>A to-do list application with user authentication and real-time updates.</p>
-            <a href="https://github.com/yourusername/task-manager" target="_blank" rel="noreferrer">GitHub Repo</a>
+          <div className="p-4 border rounded-lg shadow-sm">
+            <h3 className="text-xl font-bold text-gray-800">Ayurveda Leaf Identification</h3>
+            <p className="text-gray-600">AI-powered tool to identify medicinal leaves using image recognition.</p>
           </div>
-        </article>
+  
+          <div className="p-4 border rounded-lg shadow-sm">
+            <h3 className="text-xl font-bold text-gray-800">Ayurveda Chatbot</h3>
+            <p className="text-gray-600">Chatbot providing information about Ayurvedic remedies and herbs.</p>
+          </div>
+  
+          <div className="p-4 border rounded-lg shadow-sm">
+            <h3 className="text-xl font-bold text-gray-800">Text Summarization with LLM</h3>
+            <p className="text-gray-600">Summarizes long documents and articles using large language models.</p>
+          </div>
+        </div>
       </section>
     );
   };
